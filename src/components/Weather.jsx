@@ -14,7 +14,7 @@ const Weather = ({ weather, temp }) => {
 
   return (
     <section className="text-xl">
-      <h2 className="text-center mb-4 text-white font-bold text-2xl tracking-wider">
+      <h2 className="text-center mb-4 font-bold text-2xl tracking-wider">
         {weather.name}, {weather.sys.country}
       </h2>
 
